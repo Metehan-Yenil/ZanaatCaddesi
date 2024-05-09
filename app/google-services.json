@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "554573250452",
+    "project_id": "zanaat-caddesi",
+    "storage_bucket": "zanaat-caddesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554573250452:android:c740607b2a3dbb2c1f9981",
+        "android_client_info": {
+          "package_name": "com.meyer.zanaatcaddesi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgwm5ehFQE6eOr8PDkdKF-lGVpTWOJOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
