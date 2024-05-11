@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.meyer.zanaatcaddesi.R;
-import com.meyer.zanaatcaddesi.databinding.FragmentHomeBinding;
+//import com.meyer.zanaatcaddesi.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 

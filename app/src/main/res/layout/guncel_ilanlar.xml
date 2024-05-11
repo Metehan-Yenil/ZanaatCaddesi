@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginLeft="55dp">
+
+        <ImageView
+            android:layout_width="254dp"
+            android:layout_height="190dp"
+            android:id="@+id/pop_img"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/vazo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Fiyat:"
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="254dp"
+            android:id="@+id/pop_des"
+            android:layout_height="wrap_content"
+            android:text="baslık yazılacak"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginTop="20dp"
+
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="-10dp"
+                android:src="@drawable/loca20"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:text="Konum"/>
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/favorite50"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

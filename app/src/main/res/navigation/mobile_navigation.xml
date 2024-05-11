@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.meyer.zanaatcaddesi.ui.sohbetler.SohbetlerFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/sohbetler"
         tools:layout="@layout/fragment_galeri" />
 
     <fragment
@@ -22,5 +22,11 @@
         android:name="com.meyer.zanaatcaddesi.ui.profil.ProfilFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/nav_ilanlarim"
+        android:name="com.meyer.zanaatcaddesi.ui.ilan.ilanlarFragment"
+        android:label="@string/menu_ilanlarım"
+        tools:layout="@layout/fragment_ilanlar" />
+
 
 </navigation>

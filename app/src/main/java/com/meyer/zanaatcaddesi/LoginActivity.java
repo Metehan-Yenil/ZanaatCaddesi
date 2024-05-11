@@ -99,8 +99,8 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             progressBar.setVisibility(View.GONE);
                             Toast.makeText(LoginActivity.this, "Giriş başarılı", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(LoginActivity.this,VideoActivity.class));
-                            //startActivity(new Intent(LoginActivity.this,MainActivity.class));
+                            //startActivity(new Intent(LoginActivity.this,VideoActivity.class));
+                            startActivity(new Intent(LoginActivity.this,MainActivity.class));
                         }
                         else {
                             progressBar.setVisibility(View.GONE);

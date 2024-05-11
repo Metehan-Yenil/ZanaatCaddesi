@@ -10,12 +10,18 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Sohbetler" />
+            android:icon="@drawable/chat"
+            android:title="@string/sohbetler" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/profile_picture_user_icon_153847"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_ilanlarim"
+            android:icon="@drawable/box"
+            android:title="@string/menu_ilanlarım" />
+
 
     </group>
+
 </menu>

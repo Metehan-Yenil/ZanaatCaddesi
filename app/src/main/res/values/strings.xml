@@ -10,6 +10,8 @@
     <string name="menu_home">Anasayfa</string>
     <string name="menu_gallery">Galeri</string>
     <string name="menu_slideshow">Profilim</string>
+    <string name="menu_ilanlarım">İlanlarım</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sohbetler">Sohbetler</string>
 </resources>

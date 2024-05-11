@@ -1,3 +1,4 @@
+
 plugins {
     alias(libs.plugins.androidApplication)
     //id("com.android.application")
@@ -33,6 +34,8 @@ android {
     }
 }
 
+
+
 dependencies {
 
     implementation(libs.appcompat)
@@ -51,4 +54,9 @@ dependencies {
     //firebase kütüphaneleri
     implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
     implementation("com.google.firebase:firebase-analytics")
+
+
+
+
+
 }
